@@ -53,10 +53,10 @@
         ##After Debugging the for loop:
         #def add_underscores(word):
             #new_word = "_";
-            #for i in range(0, len(word)): // for char in word;
-                #new_word += word[i] + "_"; // new_word += word + "-";  #* Corrected Operation
+            #for i in range(0, len(word)): //  for char in word: ; 
+                #new_word += word[i] + "_"; // new_word += word + "_";  #* Corrected Code
         #return new_word;
         #phrase = "hello";
         #print(add_underscores(phrase)); #* Finished~
-    #! Challenge Coin Toss page 228
-    #! Challenge Randomization of a String using random
+    #! Challenge Coin Toss [page 228]
+    #! Challenge Randomization of a String using random() [Created by me]
