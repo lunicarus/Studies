@@ -1,6 +1,7 @@
 #I use 'better comments' extention for colorful commenting
 #All finished practice exercises are turn into comment lines
-
+    #! Challenge Coin Toss [page 228]
+    #! Challenge Randomization of a String using random() [Created by me]
 #*Python Basics: A practical introduction to Python 3
     #@ex1:Concatenation
         #!1. Create a float object named weight with the value 0.2, and create
@@ -58,5 +59,14 @@
         #return new_word;
         #phrase = "hello";
         #print(add_underscores(phrase)); #* Finished~
-    #! Challenge Coin Toss [page 228]
-    #! Challenge Randomization of a String using random() [Created by me]
+    #@Challenge Chapter 8: Write a script that prompts the user to enter a word using the input() function, stores that input in a variable, and then displays whether the length of that string is less than 5 characters, greater than 5 characters, or equal to 5 characters by using a set of if, elif and else statements
+        #print(f"Enter a number to find it's remainder");
+        #number = int(input());
+        #if number <=0:
+        #    print(f"numbers under 0 have no remainder");
+        #else:
+        #    for i in range(1,number):
+        #        if number % i == 0:
+        #            print(f"{i} is a remainder of {number}");
+        #            continue;
+        
