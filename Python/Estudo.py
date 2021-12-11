@@ -69,4 +69,4 @@
         #        if number % i == 0:
         #            print(f"{i} is a remainder of {number}");
         #            continue;
-        
+    
