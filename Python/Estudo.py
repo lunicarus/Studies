@@ -1,7 +1,5 @@
 #I use 'better comments' extention for colorful commenting
 #All finished practice exercises are turn into comment lines
-    #! Challenge Coin Toss [page 228]
-    #! Challenge Randomization of a String using random() [Created by me]
 #*Python Basics: A practical introduction to Python 3
     #@ex1:Concatenation
         #!1. Create a float object named weight with the value 0.2, and create
@@ -69,4 +67,34 @@
         #        if number % i == 0:
         #            print(f"{i} is a remainder of {number}");
         #            continue;
-    
+    #@Review Exercise chapter 8: Rolling the dice, whatever, i dont want to describe this one 
+        #import random;
+        #def rol():
+        #    """Rolls a dice 10.000 times and gives the average number rolled"""
+        #    #another of doing this is ordenating all numbers and finding the 5000th number, as it may also represent the average number rolled.
+        #    #!but I'm too lazy to code that, so i will leave a Red comment for when i have more time and disposition.
+        #    AverageNumber = 0;
+        #    for n in range(10000):
+        #        rol1 = random.randint(1,7);
+        #        AverageNumber += rol1;
+        #    Total = AverageNumber/10000
+        #    return Total;   
+        #print(rol()); #* Finished~
+
+#You might be asking "Why don't you make different files for each exercise?" well, Because opening more than 1 file makes my computer run like a potato
+#Also is quite easier for me to review code while coding, i keep the finished exercises folded and unfold them when necessary, 
+#tho for OOP i will only do individual files, as it's exercises are way more complex than this previous chapters.
+#! Challenge Coin Toss [page 228]:
+import random;
+def Cointoss():
+    heads = 0; tails = 0; flips = 0; averageflips = 0;
+    for toss in range(10):
+        while(tails < 2 and heads < 2):
+            if random.randint(0,1) == 0:
+                heads += 1;
+                flips += 1; 
+            else:
+                tails += 1;
+                flips += 1;
+    averageflips = flips/10;
+     
