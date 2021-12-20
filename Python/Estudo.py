@@ -84,17 +84,21 @@
 #You might be asking "Why don't you make different files for each exercise?" well, Because opening more than 1 file makes my computer run like a potato
 #Also is quite easier for me to review code while coding, i keep the finished exercises folded and unfold them when necessary, 
 #tho for OOP i will only do individual files, as it's exercises are way more complex than this previous chapters.
-#! Challenge Coin Toss [page 228]:
+#! Challenge Coin Toss [page 228]: Create a program that calculates the average number of flips to have both tails and heads in a sequence (ex: heads, heads, tails// 3 flips for this trial) with 100 trials
 import random;
 def Cointoss():
-    heads = 0; tails = 0; flips = 0; averageflips = 0;
-    for toss in range(10):
-        while(tails < 2 and heads < 2):
+    """This Function flips a coin until both heads and tails appear, than it sums the number of flips and start a new trial, after all trials, give the average number of flips"""
+    flips = 0;
+    for trials in range(1000):
+        heads = 0; tails = 0;
+        while(tails < 1 or heads < 1):
             if random.randint(0,1) == 0:
-                heads += 1;
                 flips += 1; 
+                heads += 1;
             else:
-                tails += 1;
                 flips += 1;
-    averageflips = flips/10;
-     
+                tails += 1;
+    average = flips/1000;
+    return print(f"{average} is the number of average flips to have both heads and tails in a trial."); #* finished~
+
+Cointoss();
