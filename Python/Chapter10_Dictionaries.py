@@ -15,6 +15,9 @@
     #       print(f"the captain of {ship} is {captains}")
     #   del captain['Discovery']; #*finished~
 #! Chapter 9.7 Challenge: Capital City Loop
+#this is a game where a random state is choicen and the User needs to guess the correct capital
+# it isnt case sensitive, so it works in every correct possible input.
+
 import random;
 capitals_dict = {
     'Alabama':'Montgomery',
