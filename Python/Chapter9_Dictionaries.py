@@ -1,4 +1,3 @@
-
 #A Python Dictionary is a data structure that relates a set of keys to a set of values, each key is assigned to a value, which defines the relationship between the two sets
 #Lists and Turple: Acess values by a index (ex: list[0]), Dictionaries: Acess itens by a key (ex: Dictionary["key1"])
 
