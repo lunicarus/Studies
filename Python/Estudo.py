@@ -71,8 +71,6 @@
         #import random;
         #def rol():
         #    """Rolls a dice 10.000 times and gives the average number rolled"""
-        #    #another of doing this is ordenating all numbers and finding the 5000th number, as it may also represent the average number rolled.
-        #    #!but I'm too lazy to code that, so i will leave a Red comment for when i have more time and disposition.
         #    AverageNumber = 0;
         #    for n in range(10000):
         #        rol1 = random.randint(1,7);
