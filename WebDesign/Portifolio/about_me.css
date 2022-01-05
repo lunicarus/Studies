@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+    color:rgba(247, 8, 8, 0.863);
+    background-color: rgb(0, 0, 0);
+}
+
+li{
+    list-style-type: none;
+}
+footer{
+    text-align: center;
+}
+.Acessibility{
+    font-weight: bold;
+    color: #006400;
+    background: rgba(0, 0, 0, 0.185);
+}
+.poem{
+    text-align: justify;
+    font-weight: bold;
+    font-size: large;
+}
