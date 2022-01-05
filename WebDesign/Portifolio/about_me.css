@@ -4,24 +4,43 @@ h1{
     background-color: rgb(0, 0, 0);
 }
 
+nav{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 li{
     list-style-type: none;
-}
-footer{
-    text-align: center;
 }
 h2{
     text-align: center;
     color:rgba(247, 8, 8, 0.863);
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(243, 239, 239);
 }
+
+footer{
+    text-align: center;
+    color:rgba(247, 8, 8, 0.863);
+    background-color: rgb(245, 240, 240);
+    clear:both;
+}
+video{
+    float: left;
+    margin: 0 1.5%;
+    width: 63%;
+  }
+  aside {
+    float: right;
+    margin: 0 1.5%;
+    width: 30%;
+  }
 .Acessibility{
     font-weight: bold;
     color: #006400;
     background: rgba(0, 0, 0, 0.185);
 }
+
 .poem{
-    text-align: justify;
+    text-align: center;
     font-weight: bold;
     font-size: large;
 }
