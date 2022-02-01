@@ -1,7 +1,9 @@
+body{
+  background-color: #111;
+  color:rgba(255, 252, 252, 0.863);
+}
 h1{
     text-align: center;
-    color:rgba(247, 8, 8, 0.863);
-    background-color: rgb(0, 0, 0);
 }
 li {
     float: left;
@@ -21,14 +23,10 @@ li a {
   }
 h2{
     text-align: center;
-    color:rgba(247, 8, 8, 0.863);
-    background-color: rgb(243, 239, 239);
 }
 
 footer{
     text-align: center;
-    color:rgba(247, 8, 8, 0.863);
-    background-color: rgb(245, 240, 240);
     clear:both;
 }
 video{
@@ -43,8 +41,7 @@ video{
   }
 .Acessibility{
     font-weight: bold;
-    color: #006400;
-    background: rgba(0, 0, 0, 0.185);
+    color: #f8f8f8;
 }
 
 .poem{
@@ -63,11 +60,11 @@ video{
     background-color: #333;
     position: sticky;
     top:0;
+    border:0;
 }
 .primary_nav li a{
-    display: block;
-    color: white;
+    display: inline-block;
+    color: rgb(255, 251, 251);
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
 }
