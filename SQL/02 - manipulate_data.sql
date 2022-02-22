@@ -1,18 +1,18 @@
--- INSERT INTO events(
---     name,
---     date_planned,
---     description,
---     max_participants,
---     min_age)
+INSERT INTO events(
+    name,
+    date_planned,
+    description,
+    max_participants,
+    min_age)
 
---     VALUES
---     (
---         'Gamer Event',
---         '2022-04-19 13:30:00',
---         'Everything a Gamer would want!',
---         100,
---         12
---     );
-UPDATE events 
-SET min_age = 14
-WHERE id = 1;
+    VALUES
+    (
+        'normie Event',
+        '2022-12-19 10:00:00',
+        'Some boring stuff',
+        1000,
+        15
+    );
+-- UPDATE events 
+-- SET min_age = 14
+-- WHERE id = 1;
