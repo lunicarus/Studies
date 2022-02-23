@@ -34,18 +34,18 @@ CREATE TABLE events (
     description TEXT NOT NULL,
     max_participants INT CHECK (max_participants > 0),
     min_age INT CHECK (min_age > 0),
-    locations_id INT REFERENCES locations(id) ON DELETE CASCADE,
-    organizers_id INT REFERENCES organizers(id) ON DELETE CASCADE
+    locations_id INT REFERENCES locations ON DELETE CASCADE,
+    organizers_id INT REFERENCES organizers ON DELETE CASCADE
 );
 
 CREATE TABLE events_user (
-    events_id INT REFERENCES events(id) ON DELETE CASCADE,
-    users_id INT REFERENCES users(id) ON DELETE CASCADE,
+    events_id INT REFERENCES events ON DELETE CASCADE,
+    users_id INT REFERENCES users ON DELETE CASCADE,
     PRIMARY KEY(events_id,users_id)
 );
 
 CREATE TABLE events_tags (
-    events_id INT REFERENCES events(id) ON DELETE CASCADE,
-    tags_name VARCHAR(100) REFERENCES tags(id) ON DELETE CASCADE,
+    events_id INT REFERENCES events ON DELETE CASCADE,
+    tags_name VARCHAR(100) REFERENCES tags ON DELETE CASCADE,
     PRIMARY KEY(events_id,tags_name)
 );

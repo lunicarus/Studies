@@ -13,14 +13,23 @@
 -- INSERT INTO organizers (password,users_id)
 -- VALUES ("b12sQ1@@",1); -- the program does the ENCRYPTION on the DATABASE
 
-INSERT INTO events(name,date_planned,image,description,max_participants,min_age,locations_id,organizers_id)
-VALUES(
-    "Gamer Developer Bootcamp",
-    "2022-10-19",
-    "path/to/GameDev.jpg",
-    "Venha aprender as habilidades principais dum criador de jogos!",
-    100,
-    16,
-    1,
-    1
-);
+-- INSERT INTO events(name,date_planned,image,description,max_participants,min_age,locations_id,organizers_id)
+-- VALUES(
+--     "Gamer Developer Bootcamp",
+--     "2022-10-19",
+--     "path/to/GameDev.jpg",
+--     "Venha aprender as habilidades principais dum criador de jogos!",
+--     100,
+--     16,
+--     1,
+--     1
+-- );
+
+-- INSERT INTO events_tags(events_id,tags_name)
+-- VALUES
+-- (1,"Video Games"),
+-- (1,"Bootcamp");
+
+-- INSERT INTO events_user(events_id,users_id)
+-- VALUES 
+-- (1,1);
