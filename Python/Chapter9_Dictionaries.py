@@ -14,29 +14,24 @@
     #       print(f"the captain of {ship} is {captains}")
     #   del captain['Discovery']; #*finished~
 #! Chapter 9.7 Challenge: Capital City Loop
-#this is a game where a random state is choicen and the User needs to guess the correct capital
+#this is a game where a random country is choicen and the User needs to guess the correct capital
 # it isnt case sensitive, so it works in every correct possible input.
-
 import random;
 capitals_dict = {
-    'Alabama':'Montgomery',
-    'Alaska':'Juneau',
-    'Arizona':'Phoenix',
-    'Arkansas':'Little Rock',
-    'California':'Sacramento',
-    'Colorado':'Denver',
-    'Connecticut':'Hartford',
-    'Delaware':'Dover',
-    'Florida':'Tallahassee',
-    'Georgia':'Atlanta',
+    'Brasil':'Brasilia',
+    'Japan':'Tokyo',
+    'France':'Paris',
+    'UK':'London',
+    "China":"Beijing",
+    "Canada":"Ottawa",
+    "Italy":"Rome"
 }
 RandomState = random.choice(list(capitals_dict));
 userInput = (input(f"What is the capital of {RandomState}?\n"))
+userInput = userInput.lower();
 for state, capital in capitals_dict.items():
     state = state.lower();
     capital = capital.lower();
-
-userInput = userInput.lower();
 while userInput != 0:
     if userInput == "exit":
         print("Goodbye");

@@ -83,19 +83,19 @@
 #Also is quite easier for me to review code while coding, i keep the finished exercises folded and unfold them when necessary, 
 #tho for OOP i will only do individual files, as it's exercises are way more complex than this previous chapters.
 #! Challenge Coin Toss [page 228]: Create a program that calculates the average number of flips to have both tails and heads in a sequence (ex: heads, heads, tails// 3 flips for this trial) with 100 trials
-import random;
-def Cointoss():
-    """This Function flips a coin until both heads and tails appear, than it sums the number of flips and start a new trial, after all trials, give the average number of flips"""
-    flips = 0;
-    for trials in range(1000):
-        heads,tails = 0,0; #& turple method 'packing 'to declare multiple variables.
-        while(tails < 1 or heads < 1):
-            if random.randint(0,1) == 0:
-                flips += 1; #& the variable unpacks without a problem. thank GOD :D
-                heads += 1;
-            else:
-                flips += 1;
-                tails += 1;
-    average = flips/1000;
-    return print(f"{average} is the number of average flips to have both heads and tails in a trial."); #* finished~
-Cointoss();
+# import random;
+# def Cointoss():
+#     """This Function flips a coin until both heads and tails appear, than it sums the number of flips and start a new trial, after all trials, give the average number of flips"""
+#     flips = 0;
+#     for trials in range(1000):
+#         heads,tails = 0,0; #& turple method 'packing 'to declare multiple variables.
+#         while(tails < 1 or heads < 1):
+#             if random.randint(0,1) == 0:
+#                 flips += 1; #& the variable unpacks without a problem. thank GOD :D
+#                 heads += 1;
+#             else:
+#                 flips += 1;
+#                 tails += 1;
+#     average = flips/1000;
+#     return print(f"{average} is the number of average flips to have both heads and tails in a trial."); #* finished~
+# Cointoss();
