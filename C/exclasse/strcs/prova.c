@@ -16,19 +16,18 @@ for (c = 0 ; c < ( n - 1 ); c++){
   }
 }
 void flush_in(){
-
-int ch;
-while ((ch = fgetc(stdin)) != EOF && ch != '\n')
-{
-}
+  int ch;
+  while ((ch = fgetc(stdin)) != EOF && ch != '\n')
+  {
+  }
 }
 void inicializaVetor(int *vetor, int n){   
-flush_in();
-int i;
-int valor;
-for (i = 0; i < n; i++){
-  scanf("%d", &valor);
-  vetor[i] = valor;
+  flush_in();
+  int i;
+  int valor;
+  for (i = 0; i < n; i++){
+    scanf("%d", &valor);
+    vetor[i] = valor;
   }
 }
 int soma(int *vetor, int n,int *total){   
@@ -41,7 +40,7 @@ void imprimeVetor(int *vetor, int n){
     int i;
     for (i = 0; i < n; i++)
     {
-        printf("%d\n",vetor[i]);
+        printf("\n%d\n",vetor[i]);
     }
 }
 void maiorMenor(int *vetor, int n, int *maior, int *menor){ 
@@ -55,7 +54,7 @@ int main(void){
     m = &Menor;
 scanf("%d", &tamanho);
 if(tamanho > 0){
-     vetor = (int *) malloc(tamanho * sizeof(int));
+    vetor = (int *) malloc(tamanho * sizeof(int));
     inicializaVetor(vetor, tamanho);
     bubble(vetor, tamanho);
     maiorMenor(vetor,tamanho,M,m);
