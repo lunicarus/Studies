@@ -1,17 +1,12 @@
 #include <math.h>
 #include <stdio.h>
 
-
-//!power functions will be made in Online IDE's
-int main()
-{
-    double x = 6.1, y = 4.8;
+int main(){
+    double x = 3, y = 2;
  
     // Storing the answer in result.
     double result = pow(x, y);
-    printf("%.2lf", result);
+    printf("%.2lf\n", result);
  
     return 0;
 }
-#include <math.h>
-#include <stdio.h>
