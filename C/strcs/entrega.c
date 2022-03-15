@@ -42,7 +42,6 @@ struct TCarro{                   //devine A estrutura tipo TCarro com as variave
     fgets(carro.placa, 20, stdin);
     printf("Informe o nome do Modelo!\n");
     fgets(carro.modelo, 20, stdin);
-    //printf("Adicionado\n carro:%s\n Placa:%s\n  Dono:%s\n na filaPrincipal!\n", carro.modelo, carro.placa, carro.dono);
     return carro;//cria as subrotinas que depois serão chamadas no codigo
 }
 int main(void){

@@ -1,8 +1,8 @@
 #include <stdlib.h>
 #include <math.h>
 #include <stdio.h>
-
-// Crie um programa que pega a nota de 8 alunos e da a media da classe
+//*concluido
+// "pega a media de 5 alunos e da a media da classe"
 void avg(int list[])
 {
     for (int i = 0; i < 5; i++)
@@ -18,8 +18,8 @@ void avg(int list[])
     average = total / 5;
     printf("%.2f\n", average);
 }
-
-// Programa que le 5 valores numericos inteiros de uma matriz e imprime a soma dos pares
+//* Concluido
+// "le 5 valores numericos inteiros de uma matriz e imprime a soma dos pares"
 void sum(int list[])
 {
     for (int i = 0; i < 5; i++)
@@ -38,8 +38,8 @@ void sum(int list[])
     }
     printf("a soma dos numeros pares é:%d\n",soma);
 }
-
-// ordena matriz com 5 elementos de forma crescente OU decrecente
+//* Concluido
+// "ordena matriz com 5 elementos de forma crescente OU decrecente"
 void ordenar(int list[]){
     printf("programa que ordena elementos 5 elementos\n");
     for (int i = 0; i < 5; i++)
@@ -98,12 +98,18 @@ for(int i = 0; i < 5;i++){
         }
 }
 
+//! Falta este exercicio a ser feito
+void cadastro(){
+
+}
+/* "Desenvolver um programa que simule uma agenda de cadastro pessoal com nome, endereço, bairro e telefone de 10 pessoas. 
+Ao final, o programa deve apresentar seus elementos dispostos em ordem crescente (na variável NOME)."
+*/
 
 int main()
 {
     int matriz[5];
-    // avg(notas);
-    // sum(matrizPar);
-    ordenar(matriz);
-
+    // avg(matriz);
+    // sum(matriz);
+    // ordenar(matriz);
 }
