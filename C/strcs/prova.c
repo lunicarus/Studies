@@ -63,7 +63,7 @@ if(tamanho > 0){
     imprimeVetor(vetor, tamanho);
     printf("Maior:[%d] Menor:[%d] Soma[%d]",Maior,Menor,total);
 
-}
+} 
 else{
     printf("Não foi possível alocar!");
 }

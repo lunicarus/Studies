@@ -1,12 +1,12 @@
 
-# TODO sintaxe to import modules
+# && sintaxe to import modules
 # from greeter import greet
 # greet("lucas");
 
 # import greeter as gr
 # gr.greet("Lucas")
 
-# TODO Sintaxe to import packages
+# && Sintaxe to import packages
 # from Package import greeter as gt,goodbye as bye;
 # gt.greet("Lucas")
 # bye.depart("lucas")
