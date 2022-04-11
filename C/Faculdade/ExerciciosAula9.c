@@ -1,9 +1,9 @@
 #include <stdlib.h>
 #include <math.h>
 #include <stdio.h>
+void avg(int list[])
 //*concluido
 // "pega a media de 5 alunos e da a media da classe"
-void avg(int list[])
 {
     for (int i = 0; i < 5; i++)
     {
