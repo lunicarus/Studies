@@ -1,0 +1,22 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "workplease",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lunicarus/Studies.git"
+  },
+  "author": "lucas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lunicarus/Studies/issues"
+  },
+  "homepage": "https://github.com/lunicarus/Studies#readme",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
+}

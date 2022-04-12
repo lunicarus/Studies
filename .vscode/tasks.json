@@ -5,15 +5,32 @@
         "type": "shell",
         "label": "g++ build active file",
         "command": "/usr/bin/g++",
-        "args": ["-g","-lm", "${file}", "-o", "${fileDirname}/${fileBasenameNoExtension}"],
+        "args": [
+          "-g",
+          "-lm",
+          "${file}",
+          "-o",
+          "${fileDirname}/${fileBasenameNoExtension}"
+        ],
         "options": {
           "cwd": "/usr/bin"
         },
-        "problemMatcher": ["$gcc"],
+        "problemMatcher": [
+          "$gcc"
+        ],
+        "group": "build"
+      },
+      {
+        "type": "typescript",
+        "tsconfig": ".vscode/tsconfig.json",
+        "problemMatcher": [
+          "$tsc"
+        ],
         "group": {
           "kind": "build",
           "isDefault": true
-        }
+        },
+        "label": "tsc: build - .vscode/tsconfig.json"
       }
     ]
   }
