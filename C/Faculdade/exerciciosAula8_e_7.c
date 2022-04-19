@@ -29,6 +29,22 @@ void media(float a, float b, float c, float d){
     }
 
 }
+//Pega o valor de 'sexo' e imprime se é valido ou não.
+void masculinoFeminino() {
+	char sexo;
+	printf("digite M para masculino e F para feminino");
+	scanf_s("%c", &sexo);
+	if (sexo == 'M') {
+		printf("Masculino");
+	}
+	else if (sexo == 'F') {
+		printf("Feminino");
+	}
+	else {
+		printf("valor de 'Sexo' invalido!");
+	}
+
+}
 
 //Realiza ajustes de salario
 float salario(float sal){
@@ -42,6 +58,21 @@ float salario(float sal){
         return sal *= 1.05;
     }
     return sal == 0;
+}
+//Outro exercicio de reajuste de salario
+float aumentoDiferente(float salario) {
+	if (salario <= 0) {
+		printf("Valor de salario invalido! valor nulo entregue: ");
+		return NULL;
+	}
+	if (salario <= 1000) {
+		printf("o seu salario reajustado é de: ");
+		return salario *= 1.25;
+	}
+	else {
+		printf("o seu salario é de: ");
+		return salario *= 1.15;
+	}
 }
 
 //realiza operações de soma até o usuario digitar 0
