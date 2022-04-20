@@ -2,22 +2,29 @@
 <html lang="en">
     <head>
         <title>Lucas Page</title>
+        <link rel="stylesheet" href="/FrontEnd/CSS/myFirstpage.css">
     </head>
     <body>
         <header>
-            <figure>
-                <img src="/FrontEnd/MEDIA/me.jpg" alt="me">
-            </figure>
             <nav id="home">
-                <ul>
+                <ul class="menu">
                     <li><a href="#home">Home</a></li>
-                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Projects</a>
+                    <ul class="submenu">
+                        <li> <a href="#">WebDesign</a></li>
+                        <li><a href="#">DataScience</a></li>
+                        <li> <a href="#">BackEnd</a></li>
+                    </ul>
+                    </li>
                     <li><a href="#">AboutMe</a></li>
-                    <li><a href="#contacts"></a></li>
+                    <li><a href="#contacts">Contact</a></li>
                 </ul>
             </nav>
         </header>
         <main>
+            <figure>
+                <img src="/FrontEnd/MEDIA/me.jpg" alt="me" class="meIMG">
+            </figure>
             <p></p>
         </main>
         <section>
