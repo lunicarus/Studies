@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <iostream>
 
 //função da media ponderada de notas
 void media(float a, float b, float c, float d){
@@ -44,6 +45,17 @@ void masculinoFeminino() {
 		printf("valor de 'Sexo' invalido!");
 	}
 
+}
+
+void impares() {
+	for (int i = 1;i < 30; i++) {
+		if (i % 3 == 0) {
+			cout << i << endl;
+		}
+		else {
+			continue;
+		}
+	}
 }
 
 //Realiza ajustes de salario
