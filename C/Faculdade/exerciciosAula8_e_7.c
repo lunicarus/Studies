@@ -49,7 +49,7 @@ void masculinoFeminino() {
 
 void impares() {
 	for (int i = 1;i < 30; i++) {
-		if (i % 3 == 0) {
+		if (i % 2 != 0) {
 			cout << i << endl;
 		}
 		else {
@@ -131,6 +131,6 @@ void fibonacii(){
 
 }
 int main(){
-    fibonacii();
+	//insira a função desejada
     return 0;
 }
