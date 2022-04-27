@@ -1,0 +1,13 @@
+h1{
+    background: sandybrown;
+}
+
+form button{
+    display: inline-block;
+}
+form input,select{
+    float: right;
+}
+form label input{
+    float: right;
+}
