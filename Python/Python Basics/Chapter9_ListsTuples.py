@@ -29,4 +29,4 @@
 # ? Exercise number 1 and 2, pag 260.
 # data = ((1,2),(3,4));
 # for element in data:
-#     print(sum(element)); #todo "bruh I did this first try what? damn" 2022-02-26"
+#     print(sum(element)); #& "bruh I did this first try what? damn" 2022-02-26"

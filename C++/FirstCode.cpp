@@ -6,11 +6,11 @@ int main()
 {
     int num;
     int ex;
-    std::string name;
-    std::cout << "Hello USER, tell me your name" << std::endl;
-    std::getline(std::cin, name); //&& way to get strings with whitespaces
-    std::cout << "Nice to meet you " << name << ", please inform a number and a exponential" << std::endl;
-    std::cin >> num >> ex; //&& multiple inputs
-    std::cout << "The result is " << pow(num, ex) << std::endl;
+    string name;
+    cout << "Hello USER, tell me your name" << endl;
+    getline(cin, name); //&& way to get strings with whitespaces
+    cout << "Nice to meet you " << name << ", please inform a number and a exponential" << endl;
+    cin >> num >> ex; //&& multiple inputs
+    cout << "The result is " << pow(num, ex) << endl;
     return 0;
 }

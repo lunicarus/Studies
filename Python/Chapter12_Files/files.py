@@ -1,5 +1,4 @@
 import pathlib as pl
-import sqlite3
 # path = "/home/lucas/Documentos/Studies"
 # print()
 # desafio = pl.Path.home() / "DESAFIO.txt"

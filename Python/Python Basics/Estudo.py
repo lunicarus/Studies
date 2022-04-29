@@ -6,41 +6,43 @@
         #!a string object named animal with the value "newt". Then use these
         #!objects to print the following string using only string concatenation:
         #!0.2 kg is the weight of the newt. \\ OK
-        #weight = 0.2;
-        #animal = "newt";  
-        #print(F"{weight}kg is the weight of the {animal}");  ## Finished~
-    #@ ex2: find.() and replace.()
+        # weight = 0.2;
+        # animal = "newt";  
+        # print(f"{weight}kg is the weight of the {animal}");  ## Finished~
+    # @ ex2: find.() and replace.()
         #!1. In one line of code, display the result of trying to .find() the substring "a" in the string "AAA". The result should be -1. \\ OK
         #!2. Replace every occurrence of the character "s" with "x" in the string "Somebody said something to Samantha." \\ OK
         #!3. Write and test a script that accepts user input using the input() function and displays the result of trying to .find() a particular...
         #!letter in that input \\OK
-        #print("a".find("AAA\n"));
-        #print("Somebody said something to Samantha\n".replace("s","x"));
-        #prompt = input("write a word with or without the letter 'a': ");
-        #print("\n",prompt.find("a"));  #* Finished~
+        # print("a".find("AAA\n"));
+        # print("Somebody said something to Samantha\n".replace("s","x"));
+        # prompt = input("write a word with or without the letter 'a': ");
+        # print("\n",prompt.find("a"));  #* Finished~
     #@ ex3: testing f string method and .f
         #speed = 1.2543;
-        #sadness = f"time is {speed:.2f} faster";
-       # print(sadness); #* Finished~
+        #print(f"time is {speed:.2f} faster"); #* Finished~
     #@ ex4: Loops: While and for:
         #!1. Write a for loop that prints out the integers 2 through 10, each on
         #!a new line, by using the range() function.
-            #numbers = range(1,6);
-            #for x in numbers:
-                #    print(f"{x*2}");  #* Finished~
+        # numbers = range(1,6);
+        # for x in numbers:
+            #     print(f"{x*2}");#* Finished~
     #@ Challenge Chapter 6.5: Investment Calculator:
-        # amount = int(input("inform the amount invested: "));
-        # rate = float(input("inform the rate of profit per year"));
-        #years = int(input("inform the years invested"));
-        #def investment(A,R,Y):
-            #"""Invests 'A' amount by 'R' rate for 'Y' years.""";
-            #time = range(Y);
-            #for Y in time:
-            #    A = A + A*R;
-            #    print(f'year {Y:}: ${A:.2f}');
-        #investment(amount,rate,years); #* Finished~
+        # try:
+            #     amount = int(input("inform the amount invested: "));
+            #     rate = float(input("inform the rate of profit per year: "));
+            #     years = int(input("inform the years invested: "));
+        # except:
+            #     print(f"Invalid value!");
+            # def investment(A,R,Y):
+            #     """Invests 'A' amount by 'R' rate for 'Y' years.""";
+            #     time = range(Y);
+                #     for Y in time:
+                #         A = A + A*R;   
+                #         print(f'year {Y+1:}: ${A:.2f}');
+        # investment(amount,rate,years); #* Finished~
     #@Challenge Chapter 7: Debugging
-        ##Before Debugging:
+        ##Before Debugging:10
         #def add_underscores(word):
             #new_word = "_"
             #for i in range(0, len(word)):
@@ -57,7 +59,11 @@
         #return new_word;
         #phrase = "hello";
         #print(add_underscores(phrase)); #* Finished~
-    #@Challenge Chapter 8: Write a script that prompts the user to enter a word using the input() function, stores that input in a variable, and then displays whether the length of that string is less than 5 characters, greater than 5 characters, or equal to 5 characters by using a set of if, elif and else statements
+        
+    #@Challenge Chapter 8: Write a script that prompts the user to enter a word using the input() function, 
+    # stores that input in a variable, and then displays whether the length of that string is less than 5 characters, 
+    # greater than 5 characters, or equal to 5 characters by using a set of if, elif and else statements
+    
         #print(f"Enter a number to find it's remainder");
         #number = int(input());
         #if number <=0:
@@ -87,7 +93,7 @@
 # def Cointoss():
 #     """This Function flips a coin until both heads and tails appear, than it sums the number of flips and start a new trial, after all trials, give the average number of flips"""
 #     flips = 0;
-#     for trials in range(1000):
+#     for trials in range(100):
 #         heads,tails = 0,0; #& turple method 'packing 'to declare multiple variables.
 #         while(tails < 1 or heads < 1):
 #             if random.randint(0,1) == 0:
@@ -96,6 +102,6 @@
 #             else:
 #                 flips += 1;
 #                 tails += 1;
-#     average = flips/1000;
+#     average = flips/100;
 #     return print(f"{average} is the number of average flips to have both heads and tails in a trial."); #* finished~
 # Cointoss();

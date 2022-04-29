@@ -1,6 +1,3 @@
-from inspect import Attribute
-
-
 class Dog:
     species = "Canis familiaris"
 
