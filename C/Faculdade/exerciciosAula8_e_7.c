@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <iostream>
 
 //função da media ponderada de notas
 void media(float a, float b, float c, float d){
@@ -47,17 +46,6 @@ void masculinoFeminino() {
 
 }
 
-void impares() {
-	for (int i = 1;i < 30; i++) {
-		if (i % 2 != 0) {
-			cout << i << endl;
-		}
-		else {
-			continue;
-		}
-	}
-}
-
 //Realiza ajustes de salario
 float salario(float sal){
     if (sal < 500){
@@ -75,7 +63,7 @@ float salario(float sal){
 float aumentoDiferente(float salario) {
 	if (salario <= 0) {
 		printf("Valor de salario invalido! valor nulo entregue: ");
-		return NULL;
+		return 0;
 	}
 	if (salario <= 1000) {
 		printf("o seu salario reajustado é de: ");
@@ -93,13 +81,13 @@ void soma (){
     while (r != 0){
         if (i == 0){
             printf("informe um valor para soma\n");
-            scanf("%f", &r);  
+            scanf_s("%f", &r);  
             printf("%f + 0 = %f\n",r,r); 
             i += r;
         }
         else {
             printf("informe um valor para soma\n");
-            scanf("%f", &r);
+            scanf_s("%f", &r);
             aux = i;
             i += r;
             printf("%f + %f = %f\n",aux,r,i);

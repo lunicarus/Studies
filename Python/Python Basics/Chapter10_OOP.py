@@ -24,6 +24,7 @@ class rectangle:
     def area(self):
         return f"{self.side*self.side}"
 
-
+marcus = GoldenRetriever("marucs",3)
 Rec = rectangle(5)
 print(f"\n{Rec.area()}\n")
+print(marcus.speak())
