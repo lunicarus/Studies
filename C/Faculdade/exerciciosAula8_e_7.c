@@ -75,7 +75,7 @@ float salario(float sal){
 float aumentoDiferente(float salario) {
 	if (salario <= 0) {
 		printf("Valor de salario invalido! valor nulo entregue: ");
-		return NULL;
+		return 0;
 	}
 	if (salario <= 1000) {
 		printf("o seu salario reajustado é de: ");
