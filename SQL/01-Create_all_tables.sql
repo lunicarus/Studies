@@ -1,6 +1,8 @@
-CREATE cities(
+CREATE DATABASE LZeventos;
+
+CREATE TABLE cities(
     name VARCHAR(200) PRIMARY KEY
-)
+);
 CREATE TABLE locations (
     id INT PRIMARY KEY AUTO_INCREMENT,
     title VARCHAR(200),

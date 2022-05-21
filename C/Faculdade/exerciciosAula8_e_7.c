@@ -110,7 +110,7 @@ int fatoral(int a){
 void fibonacii(){
     int a=0,b=1,total=0;
     printf("1 ");
-    for(int i = 0; i < 10; i++){
+    for(int i = 0; i < 12; i++){
         total = a+b;
         printf(" %d ", total);
         a = b; 

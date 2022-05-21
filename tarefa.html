@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>JS</title>
+
+    <script>
+        //window.alert("Prazer em conhece-lo" + nome + " " + sobrenome);
+        window.confirm("deseja continuar?");
+        function verificar(){
+            var nome = formulariOH.nome.value;
+            var sobrenome = formulariOH.sobrenome.value;
+            var idade = parseInt(formulariOH.idade.value);
+            window.alert("Prazer em conhece-lo" + nome + " " + sobrenome);
+            if (idade > 0 && idade < 18) {
+               window.alert("Você é menor de idade");
+               return 0;
+            }
+            if (idade > 18){
+               window.alert(window.alert("você não é menor de idade"));
+               return 0;
+            }
+            else{
+               window.alert(window.alert("Valor invalido!"));
+               return 0;
+            }
+    }
+
+    </script>
+</head>
+<body>
+    <form action="#" method="post" name="formulariOH">
+        <label for="nome">nome:</label>
+        <input type="text" id="nome" name="nome" value="nome"><br><br>
+        <label for="sobrenome">sobrenome:</label>
+         <input type="text" id="sobrenome" name="sobrenome" value="sobrenome"><br><br>
+        <label for="idade">Idade:</label>
+        <input type="text" id="idade" name="idade" value="idade"><br><br>
+        <button type="submit" name="enviar" value="enviar" onclick="verificar()">Enviar</button>
+      </form>
+</body>
+</html>
