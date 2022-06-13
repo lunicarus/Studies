@@ -99,5 +99,8 @@ int ConverteDATA()
 
 int main()
 {
-    ConverteDATA();
+    //ConverteDATA();
+    for(int i = 1;i<100; i+= i++){
+        printf("%d ",i);
+    }
 }
