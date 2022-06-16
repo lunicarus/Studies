@@ -120,11 +120,11 @@ void Exercicio5() {
     system("pause");
 }
 void Exercicio7() { 
-		int a = 0, b = 1, total = 0;
-		printf("1 ");
-		for (int i = 0; i < 29; i++) {
+		int a = 0, b = 1, total = 0, quantidadeNumeros = 10;
+		printf("0 1 ");
+		for (int i = 0; i < quantidadeNumeros - 2; i++) {
 			total = a + b;
-			printf(" %d ", total);
+			printf("%d ", total);
 			a = b;
 			b = total;
 		}
