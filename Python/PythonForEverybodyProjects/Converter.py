@@ -21,5 +21,4 @@ def convertor(operacoes=[0],resultado = False):
 def board(n):
     zeros = np.zeros(n,n)
     ones = np.ones(n,n)
-    for number in ones:
-        
+    
