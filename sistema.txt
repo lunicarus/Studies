@@ -1,0 +1,17 @@
+  1. Nome do sistema: Gaia
+
+  2. Descrição do Sistema: Sistema de controle de Estoque para centros de Distribuição.
+
+  3. SPT: O sistema tem como função principal auxiliar nas operações rotineiras de controle de Estoque, sendo majorietariamente utilizado pelo operacional para Dar
+entrada e saida de produtos e armazenar informações sobre os mesmos no Banco de Dados
+
+  4. Departamentos que poderiam utilizar o sistema: Todos os Departamentos do Centro de Distribuição 
+
+  5. Entrada De produtos, Saida de produtos, consulta da validade dos produtos, consulta da quantidade dos produtos, função para consultar a posição dos produtos no 
+estoque, registro de perdas de produtos por validade, roubo ou avaria, consulta sobre organização dos produtos do estoque.
+  
+  6.Centros de Produção que armazenam e realizam a logistica de bens de consumo pereciveis (bebidas e alimentos)
+  
+  7. Incongruencia dos dados armazenados no sistema quanto aos produtos existentes no centro de distribuição, seja quanto a quantidade, data de validade,quanto tipo e
+quantidade do produto que saiu ou entrou ou onde o produto esta armazenado no estoque
+  
